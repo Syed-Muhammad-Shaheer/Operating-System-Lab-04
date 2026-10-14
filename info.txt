@@ -1,0 +1,1 @@
+-rw-r--r-- 644 /home/Shaheer/123/shaheer.txt
