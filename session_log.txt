@@ -1,0 +1,27 @@
+Script started on 2026-10-14 15:10:10+05:00 [TERM="dumb" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+Shaheer@DESKTOP-MHVNCTG:~$ mkdir -p ~/123
+Shaheer@DESKTOP-MHVNCTG:~$ cd ~/123
+Shaheer@DESKTOP-MHVNCTG:~/123$ echo "I am practicing about Linux commands" > shaheer.txt
+Shaheer@DESKTOP-MHVNCTG:~/123$ ls
+shaheer.txt
+Shaheer@DESKTOP-MHVNCTG:~/123$ ls -l ~/123
+total 4
+-rw-r--r-- 1 Shaheer Shaheer 37 Oct 14 15:12 shaheer.txt
+Shaheer@DESKTOP-MHVNCTG:~/123$ cat ~/123/shaheer.txt
+I am practicing about Linux commands
+Shaheer@DESKTOP-MHVNCTG:~/123$ stat -c '%A %a %n' ~/123/shaheer.txt > ~/123/info.txt
+Shaheer@DESKTOP-MHVNCTG:~/123$ V cat ~/123/info.txt
+-rw-r--r-- 644 /home/Shaheer/123/shaheer.txt
+Shaheer@DESKTOP-MHVNCTG:~/123$ mkdir -p ~/Desktop/BSCS
+Shaheer@DESKTOP-MHVNCTG:~/123$ mv ~/Desktop/BSCS ~/Desktop/"Information Security"
+Shaheer@DESKTOP-MHVNCTG:~/123$ cp ~/123/shaheer.txt ~/Desktop/"Information Security"/
+Shaheer@DESKTOP-MHVNCTG:~/123$ ls -l ~/Desktop/"Information Security"
+total 4
+-rw-r--r-- 1 Shaheer Shaheer 37 Oct 14 15:16 shaheer.txt
+Shaheer@DESKTOP-MHVNCTG:~/123$ cat ~/Desktop/"Information Security"/shaheer.txt
+I am practicing about Linux commands
+Shaheer@DESKTOP-MHVNCTG:~/123$ explorer.exe .
+Shaheer@DESKTOP-MHVNCTG:~/123$ exit
+exit
+
+Script done on 2026-10-14 15:19:07+05:00 [COMMAND_EXIT_CODE="1"]
